@@ -1,0 +1,22 @@
+{
+  "Jogos": [
+    {
+      "nome": "CAMISETA EM MALHA ESTAMPA UNLIMITED",
+      "precoProduto": 99.99,
+      "faixaEtaria": "M",
+      "lancamento": "2019-06-28",
+      "plataformas": "Camiseta",
+      "quantidadeMF": 45,
+      "id": 1
+    },
+    {
+      "nome": "KAGUYA SAMA LOVE IS T-SHIRT",
+      "precoProduto": 159,
+      "faixaEtaria": "G",
+      "lancamento": "2016-02-16",
+      "plataformas": "Camisetas",
+      "quantidadeMF": 60,
+      "id": 2
+    }
+  ]
+}

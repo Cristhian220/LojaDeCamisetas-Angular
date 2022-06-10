@@ -1,0 +1,115 @@
+<!--Classe PAi-->
+
+<strong><h1 class="my-3 text-center text-dark">Ofertas em destaque</h1></strong> <!--Titulo das Ofertas-->
+<br>
+<br>
+
+<div class="row align-items-center ml-2">
+  <!--Card com botão para mostrar e levas pra a promoção-->
+
+        <button type="button" class="btn btnh centerButton">
+          <h2>
+              <p class="card-text text-center text-dark" routerLink="black-natal">
+             Promoções imperdíveis
+              </p>
+          </h2>
+        </button>
+
+</div>
+
+<strong><h1 class="my-3 text-center text-dark">Camisetas em destaque</h1></strong><!--Titulo das camisetas-->
+
+<hr>
+
+<div class="row mt-3 ml-2">
+
+  <div class="col md-3"><!--Super Mario Maker 2-->
+    <app-card-produto
+      foto='https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQDRb1ZDaVfVoNueR7p0K85GOjsWwf_IJEAuuktXagjLIQ3MkMs-8zGKANxMCm-syH-R0xUamoKppN_eHKVU327IWXla3m5uT__SiZii2IsVJWg_q6SsJ2AZQ&usqp=CAE'
+      nomeProduto="CAMISETA EM MALHA ESTAMPA UNLIMITED"
+      [promocao]="promocao"
+      [idProduto]="4"
+      lancamento="2019-06-28"
+      [precoProduto]="99.99"
+      plataformas="Camisetas"
+      [quantidadeMF]="45">
+    </app-card-produto>
+  </div>
+
+  <div class="col md-3"><!--Call of Duty Vanguard-->
+    <app-card-produto
+      foto='https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTUX9Zn1a2EhmFJ-qKBEok6-TJQng6r6-ow_d4Q2zPhW8YHNSZWBFL4QKfhF5R40SefJQt1nK6wAFQzxwFm_lD5akhYddKxh7ya-Yzhm-8O0p8CUIKfnjiU&usqp=CAE'
+      nomeProduto="CAMISETA MLB NEW YORK YANKEES LOGO
+      "
+      [promocao]="promocao"
+      [idProduto]="1"
+      lancamento="2021-09-10"
+      [precoProduto]="99.99"
+      plataformas="Camiseta"
+      [quantidadeMF]="300">
+    </app-card-produto>
+  </div>
+
+  <div class="col md-3"><!--Forza Horizon 5-->
+    <app-card-produto
+      foto='https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRsEXwVC3iR4eNVZjhMUCCBMZlgjKOysQ0iHyGhq2LmzkQPcZ3Rh19NV9uIjCVaanbqaka0vbLfLaBk8h9gEPTZbVhqkXneD6Q8ehy-EN3cMEbW1k_5AhsC'
+      nomeProduto="Camiseta Infantil Adidas Essentials He9281
+      "
+      [promocao]="promocao"
+      [idProduto]="5"
+      lancamento="2021-11-04"
+      [precoProduto]="59.99"
+      plataformas="Camiseta"
+      [quantidadeMF]="350">
+    </app-card-produto>
+  </div>
+
+</div><!--Fim da row da primeira lisata de Jogos-->
+
+<div class="row mt-3 ml-2">
+
+  <div class="col md-3"><!--Far Cry 6-->
+    <app-card-produto
+      foto='https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQOtO_5WVcixCCMCdK8hrFMVjof6RTH_YcKq-c4oZ_oVy3Vo_8MXE_ddJcJyMZbxerTePtmIkl_XV2d3DQfwrnMpNblW9HnKdBeW3Jhh2NFP1h8qXA8pXWl4w&usqp=CAE'
+      nomeProduto="Camiseta - Edição Especial Wise"
+      [promocao]="promocao"
+      [idProduto]="7"
+      lancamento="2021-10-06"
+      [precoProduto]="49.99"
+      plataformas="Camiseta"
+      [quantidadeMF]="250">
+    </app-card-produto>
+  </div>
+
+  <div class="col md-3"><!--Battlefield 2042-->
+    <app-card-produto
+      foto='https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSh7nXaT9eBBvXdNI13z9c77fByb8hWBljSe-H5LiKKJOOArFpld__n-GnV7ZCyoL9sgXLfsuTB0Y3utz-8Sksmf8f1BD5jUtaMOkx496_Jhrw6kPZJ6MEBfw&usqp=CAE'
+      nomeProduto="Camiseta Rótulo Whisky"
+      [promocao]="promocao"
+      [idProduto]="8"
+      lancamento="2021-11-19"
+      [precoProduto]="71.99"
+      plataformas="Camiseta"
+      [quantidadeMF]="280">
+    </app-card-produto>
+  </div>
+
+  <div class="col md-3"><!--FIFA 22-->
+    <app-card-produto
+      foto='https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSR7Z9uu6_FO0BBXHRJWH6GN0ocxPiLVLkQ8NPZeVWt68kbk6ITbQn6WiPL6yrr0W-kO5U_uYYyHGf4u7CHJ1dAwNjFq8_WKQ'
+      nomeProduto="Billabong Camiseta Manga Curta Ocean Preto S      "
+      [promocao]="promocao"
+      [idProduto]="9"
+      lancamento="2021-09-26"
+      [precoProduto]="95.99"
+      plataformas="Camiseta"
+      [quantidadeMF]="170">
+    </app-card-produto>
+  </div>
+
+</div><!--Fim da row da segunda linha de Jogos-->
+
+<br>
+<br>
+<br>
+<br>
